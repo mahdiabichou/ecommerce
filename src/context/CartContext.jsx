@@ -1,4 +1,4 @@
-﻿import { createContext, useState, useContext } from 'react'
+import { createContext, useState, useContext } from 'react'
 
 const CartContext = createContext()
 
@@ -50,3 +50,4 @@ export const useCart = () => {
   }
   return context
 }
+

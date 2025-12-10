@@ -1,4 +1,4 @@
-﻿import { useCart } from '../context/CartContext'
+import { useCart } from '../context/CartContext'
 import { Link } from 'react-router-dom'
 
 export default function Checkout() {
@@ -75,3 +75,4 @@ export default function Checkout() {
     </div>
   )
 }
+

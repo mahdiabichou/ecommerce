@@ -1,4 +1,4 @@
-﻿import { useState } from 'react'
+import { useState } from 'react'
 import ProductCard from '../components/ProductCard'
 
 export default function Products() {
@@ -22,3 +22,4 @@ export default function Products() {
     </div>
   )
 }
+
